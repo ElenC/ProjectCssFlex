@@ -3,7 +3,18 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 header{
+    width: 97.72vw;
+    height: 7vh;
     text-align: center;
     padding: 15px;
     background-color: rgb(255, 174, 0);
@@ -12,21 +23,16 @@ header{
 
 #login{
     width: 300px;
-    height: 250px;
-    margin: 0 500px 0 500px;
+    height: 210px;
+    padding-top: 50px;
     margin-top: 120px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction: column;
     background-color: rgb(255, 230, 0);
 }
 
 #login label{
-    margin:15px;
+    margin:0 30px 70px 30px;
     color: #fff;
     font-size: 20px;
-    
 }
 #login input{
     border: none;
@@ -36,7 +42,7 @@ header{
     border-radius: 10px;
 }
 #link{
-    
+    margin: 0 0 0 100px;
     padding: 10px;
     text-decoration: none;
     background-color: #000;
@@ -46,9 +52,10 @@ header{
 
 footer{
     text-align: center;
-    margin-top: 160px;
+    margin-top: 120px;
     padding: 15px;
-    height: 29px;
+    width:  97.82vw;
+    height: 7.6vh;
     font-size: 16x;
     background-color: rgb(255, 174, 0);
     color: #fff;
